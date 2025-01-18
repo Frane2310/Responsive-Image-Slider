@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Slider | BFrane</title>
     <link rel="stylesheet" href="style.css">
+    <!--Linking swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 <body>
     <div class="slider-container">
-        <div class="slider-wrapper">
-            <div class="slider-item">
+        <!--Slider list items-->
+        <div class="slider-wrapper swiper-wrapper">
+            <div class="slider-item swiper-slide">
                 <div class="slide-content">
                     <h3 class="slide-subtitle">Slide 01</h3>
                     <h2 class="slide-title">Lorem ipsum dolor sit amet elit
@@ -21,7 +24,7 @@
                     <a href="#" class="slide-button"><span>Learn More</span></a>
                 </div>
             </div>
-            <div class="slider-item">
+            <div class="slider-item swiper-slide">
                 <div class="slide-content">
                     <h3 class="slide-subtitle">Slide 02</h3>
                     <h2 class="slide-title">Sed ut perspiciatis unde omnis iste
@@ -34,7 +37,7 @@
                     <a href="#" class="slide-button"><span>Learn More</span></a>
                 </div>
             </div>
-            <div class="slider-item">
+            <div class="slider-item swiper-slide">
                 <div class="slide-content">
                     <h3 class="slide-subtitle">Slide 03</h3>
                     <h2 class="slide-title">Nemo enim ipsam voluptate quia
@@ -47,7 +50,7 @@
                     <a href="#" class="slide-button"><span>Learn More</span></a>
                 </div>
             </div>
-            <div class="slider-item">
+            <div class="slider-item swiper-slide">
                 <div class="slide-content">
                     <h3 class="slide-subtitle">Slide 04</h3>
                     <h2 class="slide-title">Neque porro quisquam est qui dolorem!
@@ -59,7 +62,7 @@
                     <a href="#" class="slide-button"><span>Learn More</span></a>
                 </div>
             </div>
-            <div class="slider-item">
+            <div class="slider-item swiper-slide">
                 <div class="slide-content">
                     <h3 class="slide-subtitle">Slide 05</h3>
                     <h2 class="slide-title">Quis autem velum iure reprehen derit qui
@@ -72,6 +75,20 @@
                 </div>
             </div>
         </div>
+        <!--Slider pagination-->
+        <div class="slider-controls">
+            <ul class="slider-pagination">
+                <div class="slider-indicator"></div>
+                <li class="slider-tab">Lorem ipsum doloriums viconsetur</li>
+                <li class="slider-tab">Lorem ipsum doloriums viconsetur</li>
+                <li class="slider-tab">Lorem ipsum doloriums viconsetur</li>
+                <li class="slider-tab">Lorem ipsum doloriums viconsetur</li>
+                <li class="slider-tab">Lorem ipsum doloriums viconsetur</li>
+            </ul>
+        </div>
     </div>
+    <!--Linking swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
